@@ -31,11 +31,8 @@ fn main() {
     println!("z.addw = {:?}", z.addw(5));
     println!("");
 
+    println!("Hello what is going on ");
+
     m(&z);
     m(&k);
-
 }
-
-
-
-
