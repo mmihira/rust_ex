@@ -11,5 +11,4 @@ fn main(){
     println!("The unit value: {:?}", unit);
 
     let _unused = 10u64;
-
 }

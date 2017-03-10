@@ -39,7 +39,6 @@ fn main(){
     };
 
     println!("\n\nOz is {:?}\n\n", ite);
-
     println!("k is {:?}", k);
     let w = k.iter().map(|u: &Ox| -> i32 { u.x + 1 });
     let l = k.iter().map(|u: &Ox| -> Ox {
