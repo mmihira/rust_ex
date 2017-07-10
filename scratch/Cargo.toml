@@ -2,9 +2,14 @@
 name = "rust_ex"
 version = "0.1.0"
 authors = ["mmihira <mmihira.w@gmail.com>"]
+build = "build.rs"
 
 [dependencies]
 rand = "*"
+threadpool = "1.0"
+curl = "*"
+argparse = "*"
+
 
 [profile.dev]
 opt-level = 3
